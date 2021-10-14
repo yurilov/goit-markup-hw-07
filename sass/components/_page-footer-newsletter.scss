@@ -9,7 +9,7 @@
   .newsletter__label {
     font-weight: 700;
     font-size: 14px;
-    line-height: calc(16 / 14);
+    line-height: 1.14;
     text-transform: uppercase;
     color: $primary-white-color;
     display: flex;
@@ -32,7 +32,7 @@
     &::placeholder {
       font-size: 16px;
       line-height: 1.25;
-      color: &secondary-white-color;
+      color: $secondary-white-color;
     }
   }
 

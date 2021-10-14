@@ -1,12 +1,12 @@
 .clients__list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * $gap);
-  margin-left: calc(-1 * $gap);
+  margin-top: -1 * $gap;
+  margin-left: -1 * $gap;
 }
 
 .clients__item {
-  flex-basis: calc(100% / 6 - $gap);
+  flex-basis: calc(100% / 6 - 30px);
   margin-top: $gap;
   margin-left: $gap;
 }
@@ -35,6 +35,6 @@
 
   .clients__link:hover &,
   .clients__link:focus & {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }

@@ -17,16 +17,16 @@
       background-color: $accent-color;
     }
   }
+}
 
-  .team-social__icon {
-    width: 20px;
-    height: 20px;
-    fill: $icon-color;
-    transition: fill $transition-duration $timing-function;
+.team-social__icon {
+  width: 20px;
+  height: 20px;
+  fill: $icon-color;
+  transition: fill $transition-duration $timing-function;
 
-    .team-social__link:hover &,
-    .team-social__link:focus & {
-      fill: $primary-white-color;
-    }
+  .team-social__link:hover &,
+  .team-social__link:focus & {
+    fill: $primary-white-color;
   }
 }

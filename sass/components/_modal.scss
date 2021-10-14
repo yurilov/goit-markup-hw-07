@@ -49,14 +49,14 @@
     cursor: pointer;
     background-color: $primary-white-color;
   }
+}
 
-  .modal__close-icon {
-    fill: $logo-color;
-    transition: fill $transition-duration $timing-function;
+.modal__close-icon {
+  fill: $logo-color;
+  transition: fill $transition-duration $timing-function;
 
-    .modal__close-button:hover &,
-    .modal__close-button:focus & {
-      fill: $accent-color;
-    }
+  .modal__close-button:hover &,
+  .modal__close-button:focus & {
+    fill: $accent-color;
   }
 }
