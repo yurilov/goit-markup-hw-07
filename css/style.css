@@ -208,10 +208,6 @@ ul {
   margin-right: 70px;
 }
 
-.join__list {
-  display: flex;
-}
-
 .logo--bottom {
   display: block;
   margin-bottom: 20px;
@@ -231,6 +227,10 @@ ul {
 
 .contacts__link--address {
   color: var(--primary-white-color);
+}
+
+.join__list {
+  display: flex;
 }
 
 .join__title {

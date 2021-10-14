@@ -1,0 +1,16 @@
+.team {
+  background-color: $secondary-background-color;
+
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * $gap);
+    margin-left: calc(-1 * $gap);
+  }
+
+  .team__item {
+    flex-basis: calc(100% / 4 - $gap);
+    margin-top: $gap;
+    margin-left: $gap;
+  }
+}
